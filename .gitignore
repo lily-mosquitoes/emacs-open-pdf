@@ -1,2 +1,9 @@
 /target
 Cargo.lock
+
+# build config
+.cargo
+rust-toolchain.toml
+
+# testing env
+docker-compose.yml
