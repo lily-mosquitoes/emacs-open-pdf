@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    emacs:
+        image: takeyamajp/ubuntu-sshd:latest
+        restart: always
+        environment:
+            ROOT_PASSWORD: root
+        volumes:
+            - ./target/debug:/debug
+        ports:
+            - 8888:22

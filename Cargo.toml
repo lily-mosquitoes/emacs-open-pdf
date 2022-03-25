@@ -1,0 +1,15 @@
+[package]
+name = "emacs-open-pdf"
+version = "0.1.0"
+authors = ["Lílian Ferreira de Freitas"]
+license = "GPL-3.0-or-later"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+emacs = "0.18"
+emacs-org-link-parser = "0.1"
+lopdf = "0.27"
+anyhow = "1"
