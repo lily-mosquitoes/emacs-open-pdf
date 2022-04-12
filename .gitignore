@@ -5,5 +5,7 @@ Cargo.lock
 .cargo
 rust-toolchain.toml
 
-# testing env
+# build and test env
+*.dockerfile
+*.sh
 docker-compose.yml
